@@ -26,7 +26,7 @@ header {
   padding-left: 0;
   width: 100%;
   position: absolute;
-  right: 8rem; }
+  right: 4rem; }
 
 .header__button {
   width: 102px;
@@ -48,8 +48,7 @@ header {
   margin-left: -5px; }
 
 .mobile-menu li:hover a {
-  color: #4db3ff;
-  background-color: #ccddee; }
+  color: blue; }
 
 .mobile-menu li:hover ul a {
   background: #f3f3f3;
