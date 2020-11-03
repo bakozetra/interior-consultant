@@ -1,0 +1,33 @@
+@import 'variables';
+.aside_container {
+  width: 70%;
+  height: 138px;
+  position: absolute;
+  background: rgba(24, 23, 25, 1);
+  right: 3rem;
+  color: white;
+  border-radius: 10px;
+  margin-top: -3rem;
+}
+.aside_content img {
+  width: 30%;
+  border-radius: 50%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+}
+
+.aside_div {
+  position: relative;
+}
+// .aside_div--img{
+//   width: 90%;
+// }
+.aside_content {
+  display: flex;
+}
+.aside_content div {
+  margin: 0;
+  margin-left: -8rem;
+  padding-top: 1rem;
+}

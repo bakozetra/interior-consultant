@@ -1,0 +1,9 @@
+$colunmMin-width : 300px;
+$number-colunm : 2;
+$breakPoint-2-column-at-50-50 : $colunmMin-width * $number-colunm;
+$article-ratio : 7;
+$aside-ratio : 3 ;
+$total-ratio : $article-ratio + $aside-ratio;
+$aside-percent-70 : percentage($article-ratio / $total-ratio) ;
+$aside-percentages-30 : percentage($aside-ratio / $total-ratio);
+$breakpoint-2-column-at-30-70: $colunmMin-width * $total-ratio / $aside-ratio ;

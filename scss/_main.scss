@@ -1,0 +1,84 @@
+@import 'variables';
+img{
+  max-width: 100%;
+}
+
+html {
+	font-size: 100%;
+	line-height: 1.5;
+}
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+main {
+	h1,
+	h2,
+	p {
+    margin: 0;
+    color: white;
+	}
+}
+
+article,
+aside {
+	padding: 2rem;
+	
+	* + * {
+		margin-top: 2rem;
+	}
+}
+
+article {
+
+}
+main {
+	background: rgba(24, 23, 25, 1);
+  ;
+}
+aside {
+	background: rgba(24, 23, 25, 1);
+  color: white;
+}
+
+@media (min-width : $breakPoint-2-column-at-50-50) {
+	main {
+    display : flex ;
+   flex-direction : row  ;
+	}
+}
+
+
+
+@media (min-height : 20rem) {
+article,
+	aside {
+  padding-bottom : 7rem;
+	padding-top : 7rem;
+	}
+}
+
+@media (min-width : 40rem) {
+	article, aside {
+   padding-left : 4rem;
+	 padding-right : 4rem;
+	}
+}
+
+@media (min-height: 20rem) and (min-width : 40rem) {
+	aside {
+    background: rgba(24, 23, 25, 1);
+
+	}
+}
+@media (hover : hover) {
+	p:hover {
+   color :white;
+	}
+}
+
+
+
+
+
