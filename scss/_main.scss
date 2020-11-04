@@ -51,18 +51,26 @@ aside {
 
 
 
-@media (min-height : 20rem) {
-article,
-	aside {
-  padding-bottom : 7rem;
-	padding-top : 7rem;
-	}
-}
+// @media (max-height : 20rem) {
+// article,
+// 	aside {
+//   padding-bottom : 7rem;
+// 	padding-top : 7rem;
+// 	}
+// }
 
 @media (min-width : 40rem) {
-	article, aside {
+	article  {
    padding-left : 4rem;
-	 padding-right : 4rem;
+	 padding-right :4rem;
+	 padding-bottom : 4rem;
+	padding-top : 4rem;
+	}
+	aside {
+		padding-left : 2rem;
+		padding-right :3rem;
+		padding-bottom : 5rem;
+	 padding-top : 4rem;
 	}
 }
 

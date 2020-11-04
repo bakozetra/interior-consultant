@@ -1,5 +1,4 @@
 @import 'variables';
-
 .article {
 
   &__header {
@@ -9,13 +8,41 @@
   &__link {
    color: white;
    text-decoration: none;
-   padding-top: 2rem;
+   padding-top: 4rem;
+   
   }
-  &__deescription {
-
+  &__description {
     &--link {
        color: blue;
+       padding-top: 2rem;
     }
 
   }
 } 
+
+@media (min-width : 1000px) {
+  .article {
+
+    &__header {
+     font-size: 48px;
+     padding-bottom: 20px;
+    }
+    
+    &__link {
+     color: white;
+     text-decoration: none;
+     padding-top: 4rem;
+     
+    }
+    &__description {
+      font-size: 24px;
+      width: 70%;
+      &--link {
+         color: blue;
+         padding-top: 2rem;
+      }
+  
+    }
+  } 
+  
+}
